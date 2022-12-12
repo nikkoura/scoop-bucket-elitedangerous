@@ -5,16 +5,17 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/WarmedxMints/OD-Explorer/releases/download/v1.0.2/OD.Explorer.v1.0.2.zip",
-            "hash": "1a465cd57dc7b6c951fba1c1055be132cf500dc2bc14107b00800230a0be8fca"
+            "hash": "1a465cd57dc7b6c951fba1c1055be132cf500dc2bc14107b00800230a0be8fca",
+            "extract_dir": "OD Explorer",
         }
     },
     "shortcuts": [
         [
-            "OD Explorer\\ODExplorer.exe",
+            "ODExplorer.exe",
             "OD Explorer"
         ]
     ],
-    "persist": "OD Explorer\\Data",
+    "persist": "Data",
     "checkver": {
         "url": "https://github.com/WarmedxMints/OD-Explorer/",
         "regex": "/releases/tag/(?:v|V)?([\\d.]+[\\-a-z]*)"
