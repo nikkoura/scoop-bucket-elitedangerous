@@ -1,7 +1,10 @@
 {
     "version": "5.6.1",
-    "description": "ED Market Connector uses the journal files written by Elite Dangerous and the game's API to feed data to various third party sites.",
+    "description": "ED Market Connector downloads commodity market and other station data from the game Elite: Dangerous for use with all popular online and offline trading tools.",
     "homepage": "https://github.com/EDCD/EDMarketConnector",
+    "license": {
+        "identifier": "GPL-2.0"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/EDCD/EDMarketConnector/releases/download/Release%2F5.6.1/EDMarketConnector_win_5.6.1.msi",
