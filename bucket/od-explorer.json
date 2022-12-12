@@ -14,6 +14,7 @@
             "OD Explorer"
         ]
     ],
+    "persist": "OD Explorer\\Data",
     "checkver": {
         "url": "https://github.com/WarmedxMints/OD-Explorer/",
         "regex": "/releases/tag/(?:v|V)?([\\d.]+[\\-a-z]*)"
