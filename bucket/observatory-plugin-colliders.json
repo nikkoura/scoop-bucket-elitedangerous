@@ -1,0 +1,29 @@
+{
+    "version": "0.22.244.1026",
+    "description": "Observatory Core plugin: detects colliders.",
+    "homepage": "https://edjp.colacube.net/observatory",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://edjp.colacube.net/download/observatoryevaluator#/ObservatoryColliders.eop",
+            "hash": "8532834977075b71a966a02548c901176d4e93f962e2816a2cd369c1452f0113"
+        }
+    },
+    "checkver": {
+        "url": "https://edjp.colacube.net/observatory",
+        "regex": "Colliders</th>[\\n\\r\\t ]*<td>?([\\d.]+)"
+    },
+    "installer": {
+        "script": "Copy-Item -Path \"$dir\\ObservatoryColliders.eop\" -Destination \"$(appdir observatory-core)\\current\\plugins\" -Force -ErrorAction SilentlyContinue"
+    },
+    "uninstaller": {
+        "script": "Remove-Item -Path \"$(appdir observatory-core)\\current\\plugins\\ObservatoryColliders.*\" -Force -ErrorAction SilentlyContinue"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://edjp.colacube.net/download/observatoryevaluator#/ObservatoryColliders.eop"
+            }
+        }
+    }
+}
