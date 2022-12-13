@@ -1,0 +1,29 @@
+{
+    "version": "5.1.0",
+    "description": "EDMC plugin: converts, rename and file screenshots.",
+    "homepage": "https://github.com/NoFoolLikeOne/EDMC-Screenshot",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/NoFoolLikeOne/EDMC-Screenshot/archive/refs/tags/5.1.0.zip",
+            "hash": "36ceb3825560f392212f405185ed7a48cbf542e0061b8c65c51228fb7ca38eff"
+        }
+    },
+    "checkver": {
+        "url": "https://github.com/NoFoolLikeOne/EDMC-Screenshot",
+        "regex": "/releases/tag/?([\\d.]+[\\-a-z]*)"
+    },
+    "installer": {
+        "script": "Copy-Item -Path \"$dir\\EDMC-Screenshot-$version\" -Destination \"$env:LocalAppData\\EDMarketConnector\\plugins\\EDMC-Screenshot\" -Recurse -Force -ErrorAction SilentlyContinue"
+    },
+    "uninstaller": {
+        "script": "Remove-Item -Path \"$env:LocalAppData\\EDMarketConnector\\plugins\\EDMC-Screenshot\" -Recurse -Force -ErrorAction SilentlyContinue"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/NoFoolLikeOne/EDMC-Screenshot/archive/refs/tags/$version.zip"
+            }
+        }
+    }
+}
