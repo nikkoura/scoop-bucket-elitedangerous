@@ -1,5 +1,5 @@
 {
-    "version": "0.22.244.1026",
+    "version": "0.22.347.1523",
     "description": "Observatory Core plugin: detects colliders.",
     "homepage": "https://edjp.colacube.net/observatory",
     "license": "Proprietary",
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://edjp.colacube.net/download/observatoryevaluator#/ObservatoryColliders.eop",
-            "hash": "8532834977075b71a966a02548c901176d4e93f962e2816a2cd369c1452f0113"
+            "hash": "65696aa04eb0708036367f620dfa995bf27c546e4f569b6b927164b6498f85bd"
         }
     },
     "checkver": {
