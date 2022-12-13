@@ -17,6 +17,7 @@
             "..\\Elite Dangerous Tools\\Observatory Core"
         ]
     ],
+    "persist": "plugins",
     "checkver": {
         "url": "https://github.com/Xjph/ObservatoryCore",
         "regex": "/releases/tag/v?([\\d.]+[\\-a-z]*)"
