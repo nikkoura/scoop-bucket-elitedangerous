@@ -1,0 +1,29 @@
+{
+    "version": "0.22.229.1313",
+    "description": "Observatory Core plugin: predicts the maximum value for bodies in a system.",
+    "homepage": "https://edjp.colacube.net/observatory",
+    "depends": "observatory-core",
+    "architecture": {
+        "64bit": {
+            "url": "https://edjp.colacube.net/download/observatoryevaluator#/ObservatoryEvaluator.eop",
+            "hash": "8532834977075b71a966a02548c901176d4e93f962e2816a2cd369c1452f0113"
+        }
+    },
+    "checkver": {
+        "url": "https://edjp.colacube.net/observatory",
+        "regex": "Evaluator</th>[\\n\\r\\t ]*<td>?([\\d.]+)"
+    },
+    "installer": {
+        "script": "Copy-Item -Path \"$dir\\ObservatoryEvaluator.eop\" -Destination \"$(appdir observatory-core)\\current\\plugins\" -Force -ErrorAction SilentlyContinue"
+    },
+    "uninstaller": {
+        "script": "Remove-Item -Path \"$(appdir observatory-core)\\current\\plugins\\ObservatoryEvaluator.*\" -Force -ErrorAction SilentlyContinue"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://edjp.colacube.net/download/observatoryevaluator#/ObservatoryEvaluator.eop"
+            }
+        }
+    }
+}
