@@ -2,6 +2,7 @@
     "version": "0.22.229.1313",
     "description": "Observatory Core plugin: predicts the maximum value for bodies in a system.",
     "homepage": "https://edjp.colacube.net/observatory",
+    "license": "Proprietary",
     "depends": "observatory-core",
     "architecture": {
         "64bit": {

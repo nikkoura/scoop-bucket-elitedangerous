@@ -2,6 +2,7 @@
     "version": "0.22.249.1652",
     "description": "Observatory Core plugin: attempts to predict what are the biological signals on a planet.",
     "homepage": "https://edjp.colacube.net/observatory",
+    "license": "Proprietary",
     "depends": "observatory-core",
     "architecture": {
         "64bit": {
