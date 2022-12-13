@@ -1,4 +1,6 @@
-# Scoop Bucket Template
+# Elite: Dangerous tools scoop bucket
+
+This bucket contains manifests for several companion tools for the Elite: Dangerous game on PC.
 
 [![Tests](https://github.com/nikkoura/scoop-bucket-elitedangerous/actions/workflows/ci.yml/badge.svg)](https://github.com/nikkoura/scoop-bucket-elitedangerous/actions/workflows/ci.yml) [![Excavator](https://github.com/nikkoura/scoop-bucket-elitedangerous/actions/workflows/excavator.yml/badge.svg)](https://github.com/nikkoura/scoop-bucket-elitedangerous/actions/workflows/excavator.yml) -->
 
