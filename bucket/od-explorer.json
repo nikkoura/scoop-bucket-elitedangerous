@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "ODExplorer.exe",
-            "OD Explorer"
+            "..\\Elite Dangerous Tools\\OD Explorer"
         ]
     ],
     "persist": "Data",

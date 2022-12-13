@@ -14,7 +14,7 @@
     "shortcuts": [
         [
             "ObservatoryCore.exe",
-            "ObservatoryCore"
+            "..\\Elite Dangerous Tools\\Observatory Core"
         ]
     ],
     "checkver": {
