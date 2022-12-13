@@ -15,7 +15,8 @@
     "shortcuts": [
         [
             "EDMarketConnector.exe",
-            "..\\Elite Dangerous Tools\\ED Market Connector"
+            "..\\Elite Dangerous Tools\\ED Market Connector",
+            "--force-localserver-for-auth"
         ]
     ],
     "checkver": {
