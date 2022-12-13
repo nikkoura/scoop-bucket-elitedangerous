@@ -1,0 +1,29 @@
+{
+    "version": "0.22.249.1652",
+    "description": "Observatory Core plugin: attempts to predict what are the biological signals on a planet.",
+    "homepage": "https://edjp.colacube.net/observatory",
+    "depends": "observatory-core",
+    "architecture": {
+        "64bit": {
+            "url": "https://edjp.colacube.net/download/observatorybioinsights#/ObservatoryBioInsights.eop",
+            "hash": "1b4b9b5d96edb35a8a4ce3c9393b13f562002255d4feb44582b72244cb4c6d87"
+        }
+    },
+    "checkver": {
+        "url": "https://edjp.colacube.net/observatory",
+        "regex": "BioInsights</th>[\\n\\r\\t ]*<td>?([\\d.]+)"
+    },
+    "installer": {
+        "script": "Copy-Item -Path \"$dir\\ObservatoryBioInsights.eop\" -Destination \"$(appdir observatory-core)\\current\\plugins\" -Force -ErrorAction SilentlyContinue"
+    },
+    "uninstaller": {
+        "script": "Remove-Item -Path \"$(appdir observatory-core)\\current\\plugins\\ObservatoryBioInsights.*\" -Force -ErrorAction SilentlyContinue"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://edjp.colacube.net/download/observatorybioinsights#/ObservatoryBioInsights.eop"
+            }
+        }
+    }
+}
