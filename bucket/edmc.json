@@ -15,7 +15,11 @@
     "shortcuts": [
         [
             "EDMarketConnector.exe",
-            "..\\Elite Dangerous Tools\\ED Market Connector",
+            "..\\Elite Dangerous Tools\\ED Market Connector"
+        ],
+        [
+            "EDMarketConnector.exe",
+            "..\\Elite Dangerous Tools\\ED Market Connector (for authentication)",
             "--force-localserver-for-auth"
         ]
     ],
