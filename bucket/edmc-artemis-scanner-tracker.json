@@ -1,6 +1,6 @@
 {
     "version": "0.2.1",
-    "description": "EDMC plugin: collect accurate science data from the galaxy, and coordinates missions.",
+    "description": "EDMC plugin: track biological scans of the artemis suit..",
     "homepage": "https://github.com/Balvald/ArtemisScannerTracker",
     "license": "GPL-3.0",
     "suggest": {
