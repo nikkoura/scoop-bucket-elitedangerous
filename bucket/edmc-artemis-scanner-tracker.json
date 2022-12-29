@@ -1,0 +1,32 @@
+{
+    "version": "0.2.1",
+    "description": "EDMC plugin: collect accurate science data from the galaxy, and coordinates missions.",
+    "homepage": "https://github.com/Balvald/ArtemisScannerTracker",
+    "license": "GPL-3.0",
+    "suggest": {
+        "Base application": "edmc"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Balvald/ArtemisScannerTracker/archive/refs/tags/v0.2.1.zip",
+            "hash": "2115c8c6648013275051a3a493cdd689a544a208d93f1ed85bf822904695d23c"
+        }
+    },
+    "checkver": {
+        "url": "https://github.com/Balvald/ArtemisScannerTracker",
+        "regex": "/releases/tag/v?([\\d.]+[\\-a-z]*)"
+    },
+    "installer": {
+        "script": "Copy-Item -Path \"$dir\\ArtemisScannerTracker-$version\" -Destination \"$env:LocalAppData\\EDMarketConnector\\plugins\\ArtemisScannerTracker\" -Recurse -Force -ErrorAction SilentlyContinue"
+    },
+    "uninstaller": {
+        "script": "Remove-Item -Path \"$env:LocalAppData\\EDMarketConnector\\plugins\\ArtemisScannerTracker\" -Recurse -Force -ErrorAction SilentlyContinue"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Balvald/ArtemisScannerTracker/archive/refs/tags/v$version.zip"
+            }
+        }
+    }
+}
