@@ -1,5 +1,5 @@
 {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "EDMC plugin: track biological scans of the artemis suit..",
     "homepage": "https://github.com/Balvald/ArtemisScannerTracker",
     "license": "GPL-3.0",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Balvald/ArtemisScannerTracker/archive/refs/tags/v0.2.1.zip",
-            "hash": "2115c8c6648013275051a3a493cdd689a544a208d93f1ed85bf822904695d23c"
+            "url": "https://github.com/Balvald/ArtemisScannerTracker/archive/refs/tags/v0.2.2.zip",
+            "hash": "55cb277b41e3559c53f99c879a8f30831485c26fb46ca7cabb57f10eefbd3723"
         }
     },
     "checkver": {
