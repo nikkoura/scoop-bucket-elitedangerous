@@ -1,6 +1,6 @@
 {
     "version": "0.7.5",
-    "description": "Elite: Dangerous Minimal Launcher. Alternate game launcher bypassing the initial game launch UI.",
+    "description": "Elite: Dangerous Minimal Launcher. Alternate game launcher bypassing the initial game launch UI, with accessory tools autolaunch.",
     "homepage": "https://github.com/rfvgyhn/min-ed-launcher",
     "license": {
         "identifier": "MIT"
