@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://edjp.colacube.net/download/observatoryevaluator#/ObservatoryColliders.eop",
-            "hash": "65696aa04eb0708036367f620dfa995bf27c546e4f569b6b927164b6498f85bd"
+            "url": "https://edjp.colacube.net/download/observatorycolliders#/ObservatoryColliders.eop",
+            "hash": "ba585328912adef94699d56a4e397140bd6c92cf285264381d2416ec9ffcf575"
         }
     },
     "checkver": {
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://edjp.colacube.net/download/observatoryevaluator#/ObservatoryColliders.eop"
+                "url": "https://edjp.colacube.net/download/observatorycolliders#/ObservatoryColliders.eop"
             }
         }
     }

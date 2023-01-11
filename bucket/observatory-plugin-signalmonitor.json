@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://edjp.colacube.net/download/observatoryevaluator#/ObservatorySignalMonitor.eop",
-            "hash": "65696aa04eb0708036367f620dfa995bf27c546e4f569b6b927164b6498f85bd"
+            "url": "https://edjp.colacube.net/download/observatorysignalmonitor#/ObservatorySignalMonitor.eop",
+            "hash": "be53ab170bf4bce35dda87f80b83a94e05dd341f6db4da4f36b3cde3e263e624"
         }
     },
     "checkver": {
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://edjp.colacube.net/download/observatoryevaluator#/ObservatorySignalMonitor.eop"
+                "url": "https://edjp.colacube.net/download/observatorysignalmonitor#/ObservatorySignalMonitor.eop"
             }
         }
     }
