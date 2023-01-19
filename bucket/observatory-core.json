@@ -1,5 +1,5 @@
 {
-    "version": "0.2.22347.120",
+    "version": "0.2.23019.109",
     "description": "Tool for reading/monitoring Elite Dangerous journals for interesting objects.",
     "homepage": "https://github.com/Xjph/ObservatoryCore",
     "license": {
@@ -7,8 +7,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Xjph/ObservatoryCore/releases/download/v0.2.22347.120/ObservatoryCore.zip",
-            "hash": "fccad48142ec04de8ceb68ff7031c152c17c63a670611ac0bb8f7910439c9e73"
+            "url": "https://github.com/Xjph/ObservatoryCore/releases/download/v0.2.23019.109/ObservatoryCore.zip",
+            "hash": "43ca016df011fff97b212be0a5652a30151c7d166a96c389beb1798c3fccdbd9"
         }
     },
     "shortcuts": [
