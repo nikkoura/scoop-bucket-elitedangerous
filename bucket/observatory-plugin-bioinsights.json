@@ -1,5 +1,5 @@
 {
-    "version": "0.23.12.1625",
+    "version": "0.23.35.1439",
     "description": "Observatory Core plugin: attempts to predict what are the biological signals on a planet.",
     "homepage": "https://edjp.colacube.net/observatory",
     "license": "Proprietary",
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://edjp.colacube.net/download/observatorybioinsights#/ObservatoryBioInsights.eop",
-            "hash": "cf988e259da5262b6cf58d3b1b860c815e6ca107658ffbced2794ee2c691e826"
+            "hash": "d8c10d910d5ab4a3602b2c804d50c7686fbc68cbd6fbc1eb1839ace2acd8f367"
         }
     },
     "checkver": {
