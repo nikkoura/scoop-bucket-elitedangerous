@@ -3,9 +3,7 @@
     "description": "Observatory Core plugin: provides statistics on boxel exploration.",
     "homepage": "https://edjp.colacube.net/observatory",
     "license": "Proprietary",
-    "suggest": {
-        "Base application": "observatory-core"
-    },
+    "depends": "observatory-core",
     "architecture": {
         "64bit": {
             "url": "https://edjp.colacube.net/download/observatoryboxelstats#/ObservatoryBoxelStats.eop",

@@ -3,9 +3,7 @@
     "description": "EDMC plugin: converts, rename and file screenshots.",
     "homepage": "https://github.com/NoFoolLikeOne/EDMC-Screenshot",
     "license": "GPL-3.0",
-    "suggest": {
-        "Base application": "edmc"
-    },
+    "depends": "edmc",
     "architecture": {
         "64bit": {
             "url": "https://github.com/NoFoolLikeOne/EDMC-Screenshot/archive/refs/tags/6.4.0.zip",
